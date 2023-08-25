@@ -1,5 +1,5 @@
 import { partData, partCategories } from "./../Data/partDetails.js";
-export const createOrder = (components) => {
+const createOrder = (components) => {
 	const selectedParts = [];
 	let totalPrice = 0;
 
@@ -51,3 +51,5 @@ let orderIdCounter = 0;
 const generateOrderId = () => {
 	return ++orderIdCounter;
 };
+
+export default createOrder;
