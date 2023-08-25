@@ -29,9 +29,9 @@ git clone https://github.com/your-username/OpenSource-Beginners.git
 ```
 (Replace your-username with your GitHub username)
 
-2. Navigate to the project directory : cd Mobile-Facory
+2. Navigate to the project directory : ```cd Mobile-Facory```
 
-3. Install the required dependencies : npm install
+3. Install the required dependencies : ```npm install```
 4. Run ```npm start``` to connect to the server 
 
 
